@@ -1,0 +1,802 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ********* */
+h2
+{  
+    font-family: 'Lora' ;
+    font-style: bold ;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 67px;
+    color: #10375C;
+}
+
+h3
+{
+    color: #10375C;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 44px;
+}
+
+h4
+{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+
+}
+
+h5
+{
+    font-family: 'Lato';
+    font-style: bold ;
+    font-weight: 700 ;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+p
+{  font-family: 'Lato';
+   font-style: normal;
+    font-weight: 500 ;
+   font-size: 20px;
+   line-height: 30px ;
+   color: #6A6A6A;
+}
+label
+{
+    background-color:#0D2C4A;
+    color: #ffffff;
+    opacity: 0.35;
+    margin-left: 12px;
+}
+.container
+{   font-family: 'lato';
+    background: #ffffff;
+    font-style: normal;   
+}
+
+.font1
+{   
+    display: flex;
+    color: #dd2c00;
+}
+.font2
+{
+    font-weight: 600;
+}
+/* *******(carousel part)****** */
+ .carousel-control-next-icon
+{
+    background-color: #FF5722;
+    color: #ffffff;
+    height: 50px ;
+    width: 50px ;
+    margin-right: 12px;
+    margin-bottom: 6px;
+}
+.carousel-control-prev
+{
+    display: flex ;
+    align-items: flex-end;
+    margin-bottom: 32px;
+    justify-content: flex-start ;
+    margin-left: 12px; 
+}
+.carousel-control-next
+{
+    display: flex ;
+    align-items: flex-end;
+    margin-bottom: 35px;
+    justify-content: right ;
+    margin-right: 15px;
+}
+.carousel-indicators
+{
+    margin-bottom: -25px ;
+}
+
+.crouselbtn button
+{
+    background-color: #dd2c00;
+}
+
+.news
+{
+    display: flex;
+}
+.navbar-brand
+{
+    margin-right: 100px ;
+}
+/* *******(end of carousel part)****** */
+/* #######################(Header part)############################ */
+.form-control
+{
+    background-color: #0D2C4A;
+    color: #ffffff ;
+    border: none ;
+    appearance: auto ;
+    -webkit-appearance:auto !;
+
+}
+.locationtag , .private ,.date
+{
+    background-color: #0D2C4A;
+}
+.navbar-brand
+{
+    font-family: 'Playfair Display' ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px ;
+    line-height: 32px ;
+    color: #10375C ;
+}
+.nav-link
+{  
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #222831;
+}
+.btn1
+{    
+    color:#FF5722; 
+    border-style: none;
+    background-color: #ffffff ;
+    font-weight: 700;
+    width: 103px;
+    height: 43px;
+}
+.btn2
+{
+    color: #ffffff;
+    background-color: #FF5722;
+    box-shadow: 0px 4px 16px rgba(255, 87, 34, 0.32);
+    border-style: none;
+    width: 103px; 
+    height: 43px;
+    margin-right: 25px;
+    font-weight: 700
+    ;
+}
+
+/* #######################(end of Header part)############################ */
+
+/****##########*********(Card phortion)*********##########***********/
+.card-body
+{    
+    font-style: 'lora';
+    position: relative;
+    width: 445px ;
+    height: 390px ;
+    color: #ffffff;
+    background-color: #10375C ;
+    align-items: center;
+}
+.card-title
+{
+  color: #FFFFFF;
+} 
+
+.card-1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardbtn
+{
+ background-color: #FF5722;
+ width: 100%;
+ height: 45px;
+ border: none;
+ color: #ffffff;
+ font-weight: bold;
+}
+.office h5 ,.sent h5
+{
+    display: flex;
+    justify-content: center;
+}
+
+.crousel
+{
+    display: flex;
+    justify-content: end;
+}
+.wimg 
+{
+    display: flex;
+    justify-content: end;
+}
+
+.iprivate
+{
+    background-color: #10375C;
+    height: 485px;
+    width: 400px;
+    box-shadow: 2px 4px 2px 2px rgba(16, 55, 92, 0.3);
+}
+
+.privatephara
+{   
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.privatephara p
+{
+    color: #ffffff;
+}
+
+.directarrow
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.midbtn
+{
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 35px;
+}
+
+.midbtn button
+{   
+    color: #ffffff;
+    background-color: #FF5722;
+    height: 70px;
+    width: 250px;
+    border: none;
+}
+
+.teamimg img
+{   
+    margin-top: 5px;
+   
+    width: 400px;
+}
+
+.office img
+{
+    
+    width: 400px;
+}
+
+.backimg img
+{
+    box-shadow: 2px 2px 2px 2px rgba(223, 223, 223, 0.5) ;
+
+}
+/****##########*********(End of Card phortion)*********##########***********/
+
+/* <!--**********(Revolise work-space part)*********--> */
+.iwork
+{
+    background-color: #10375C;
+}
+
+.iwork .row
+{
+    background-color: #10375C;
+}
+
+
+
+.team11 img
+{ 
+    margin-top: 10px;
+    margin-right: 20px;
+  
+    width: 30px;
+}
+
+.leftarrow img
+{
+    
+    width: 35px ;
+    margin-right: 15px;
+}
+.rightarrow img
+{
+    
+    width: 70px ;
+}
+
+.teamImg img
+{ 
+   width: 350px ;
+  
+}
+.contain 
+{   
+    align-items: center;
+    font-family: 'lora';
+    background-color: #10375C;
+    color: #ffffff;
+}
+.contain img
+{
+  margin-left: 15px;
+}
+
+/* <!--**********(End of Revolise work-space part)*********--> */
+
+/* ************(our facility)****************** */
+.Cafelist li
+{
+    font-family: 'Lato' ;
+   font-style: bold ;
+    font-weight: 800 ;
+   font-size: 20px ;
+   line-height: 24px;
+   color: #222831;
+   border: none;
+   padding: 15px;
+}
+li:hover
+{
+   background-color: #FF5722;
+   color: #ffffff;
+}
+.cafeform
+{
+    display: flex;
+    align-items: center;
+}
+
+ input [type="range"]
+{
+  
+background-color: rgba(223, 223, 223, 0.5) ;
+}
+
+.winterimg img 
+{
+    width: 300px;
+  
+}
+
+.tableGroup img
+{  
+    position: absolute;
+    bottom: 0;
+    width: 400px;
+    height: 550px;
+}
+
+.tableOne img
+{    margin-left: 20px;
+    width: 300px;
+   
+}
+
+.teaching img
+{
+    width: 300px;
+   
+}
+
+/* ************(End of our facility)****************** */
+
+/* ******######**(add friespy part)**#######*** */
+.bg
+{
+    background-color: #f8f8f8
+    ;
+}
+
+.bg .container
+{
+    background-color: #f8f8f8;
+}
+
+.friespy
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.frispes h5 h2
+{
+    margin-left: 40px;
+}
+
+.imagecontainer .row
+{
+    --bs-gutter-x: 0rem
+}
+
+.arrowR
+{
+    margin-left: 40px;
+}
+
+.botharrows
+{
+    display: flex;
+    align-items: center;
+}
+
+.friespyphara
+{
+    font-style: 'lato';
+    display: flex;
+    justify-content: center;
+}
+
+.CustomerOpenion
+{
+    padding: 50px 50px 0px 50px ;
+    background-color: #10375C;
+    color: #ffffff;
+}
+
+.card01
+{
+    width: 420px;
+    position: relative;
+    height: 450px;
+    margin-left: 15px;
+    padding: 50px 50px 0px 50px ;
+    background-color: #10375C;
+    color: #ffffff;
+}
+
+/* ***************(helpcenter)******************* */
+
+.helpcenter
+{
+    display: flex;
+    justify-content: center;
+}
+
+.customer2
+{
+    padding: 15px;
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+}
+
+.helpcard , .helpcard2 ,.helpcard3
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    z-index: -1;
+    height: 171px;
+    width: 300px;
+    box-shadow: 2px 2px 2px 2px rgba(223, 223, 223, 0.5);
+}
+
+.helpcard2
+{
+    background-color: #FF5722;
+}
+
+.helpcardbtn
+{
+    position: relative;
+}
+
+.arrs, .arrs2, .arrs3
+{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -15px;
+    justify-content: center;
+    margin-left: 66px;
+    
+}
+
+.question a
+{
+    color: #dd2c00;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.arrs button, .arrs3 button
+{
+    height: 45px;
+    width: 48px;
+    background-color: #FF5722;
+    border-style: none;
+    border: none;
+    box-shadow:3px 3px 2px 2px rgba(223, 223, 223, 0.7);
+}
+
+.arrs2 button
+{
+    height: 45px;
+    width: 48px;
+    background-color: #ffffff;
+    border-style: none;
+    border: none;
+    box-shadow:3px 3px 2px 2px rgba(221, 44, 0, 0.24);
+}
+
+.question
+{
+    display: flex;
+    justify-content: center;
+}
+
+.news
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sundar img
+{
+    width: 300px;
+     height: 280px; 
+     box-shadow:1px 1px 1px 1px rgba(223, 223, 223, 0.7);
+}
+.sundarbg
+{
+    background-color: #ffffff;
+}
+.CustomerImg11 img
+{
+    width: 56px;
+  
+}
+
+.sundar img ,.sundercard img ,.sundercard1 img,.sundercard2 img ,.sundercard3 img 
+{
+
+    width: 400px;
+    box-shadow: 2px 2px 3px px rgba(223, 223, 223, 0.7);;
+}
+
+/* ******######**(End of add friespy part)**#######*** */
+
+/* <!-----********  (Work Experiance) **********************----> */
+.bg .container a
+{
+    color: #dd2c00;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+.iwork p
+{
+  color: #dfdfdf;
+}
+.iwork button
+{
+   background-color: #FF5722;
+   color: #dfdfdf;
+   font-weight: bold;
+   width: 40%;
+   height: 45px;
+}
+
+.Experiance
+{
+    background-color: #10375C;
+}
+
+.Signupbtn
+{ 
+    height: 50px;
+    width: 250px;
+    border: none;
+}
+
+.manimg img
+{ 
+    width: 350px;
+    
+    margin-left: -15px;
+    margin-top: -35px;
+}
+
+.manimg
+{    
+    background-image: url("../Images/back.png");
+    width: 300px;
+}
+/* <!-----********  (end of Work Experiance) **********************----> */
+
+/*###*************** (........Footer......) ********************##### */ 
+.footer
+{
+    background-color: #0D2C4A;
+}
+
+.footer .container 
+{
+    background-color: #0D2C4A;
+}
+
+.footer .container h1
+{
+    color: #ffffff;
+    font-weight: bold;
+}
+.footer .container p
+{
+    color: #ffffff;
+}
+.fa-youtube-play{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+     
+}
+  .fa-facebook {
+    color: white;
+  }
+  .fa-instagram {
+    color: white;
+  }  
+
+.col-2 a
+{  
+   font-family: 'Lato';
+    font-style: normal;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+.Inbtn
+
+{
+   background-color: #FF5722 !important;
+}
+.footer a
+{
+    font-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 35px;
+
+}
+.teaching img ,.winterimg img 
+{
+    height: 400px;
+    width: 450px;
+}
+.tableOne img 
+{   
+
+    height: 400px;
+    width: 450px;
+}
+
+/*###*************** (........End of Footer......) ********************##### */
+
+/****#########****(Media Query)*****###############*******/
+
+@media only screen and (max-width: 768px)
+{
+    h2 
+    {
+        font-size: 40px ;
+        line-height: 45px ;
+    }
+    h3 
+    {
+       font-size: 30px;
+    }
+    .row
+    {
+        margin-top: 5px;
+    }
+    .container
+    {
+        width: 100%;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .btn1 ,.btn2
+    {
+       display: none;
+    }
+    button
+    {
+        width: auto;
+    }
+    .card-body
+    {  padding: 0em ;
+        width: 350px ;
+        height: 350px ;
+        background-color: #10375C;
+    }
+    .backimg
+    {
+        display: none;
+    }
+    .magecontainer
+    {
+        width: 100%;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .carousel-control-next-icon
+    {
+        margin-right: 0px;
+    }
+    .Phara
+    {
+        padding: 0px ;
+    }
+    .cafe img 
+    {
+        /* height: 300px; */
+        width: 300px;
+    }
+    .teaching img ,.winterimg img 
+    {
+        margin-top: 15px;
+        /* height: 270px ; */
+        width: 300px ;
+    }
+    .tableGroup img ,.tableOne img 
+    {
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 15px;
+        /* height: 270px; */
+        width: 300px;
+    }
+    .logo img 
+    {
+        height: auto;
+        width: 120px;
+        padding: 10px;
+    }
+    .card01
+    {
+        margin-top: 10px;
+        margin-left: 0px;
+        padding: 50px 75px 15px 15px  ;
+    }
+    .helpcard, .helpcard2
+    { 
+        margin-bottom: 25px;
+        border: #6A6A6A;
+        box-shadow:2px rgba(223, 223, 223, 0.5) ;
+    }
+    .news
+    {
+        display: block;
+    }
+    .sundar img ,.sundercard img ,.sundercard1 img,.sundercard2 img ,.sundercard3 img 
+    {
+        height: 280px;
+        width: 320px;
+    }
+    .arrs, .arrs2, .arrs3
+    {
+        margin-bottom: -5px;
+    }
+
+}
+/****#########****(End of Media Query)*****###############*******/
