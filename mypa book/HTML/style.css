@@ -1,0 +1,309 @@
+h1
+{
+font-size: 36px;
+text-align: center;
+color: #09436D;
+}
+h2
+{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+}
+h5
+{
+    font-size: 8px;
+    color: white;
+}
+h6
+{
+    font-size: 13px;
+    color: white;
+    line-height: 20px;
+}
+a
+{
+    font-size: 12px;
+}
+p
+{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+body
+{
+    font-family: 'Montserrat';
+}
+button
+{
+    border-radius: 25px;
+    background-color: linear-gradient(to right,#D99529,#EDAC4A);
+}
+.head
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.head img
+{
+    height: 41px;
+    width: 178px;
+}
+.navbar
+{
+    background-color: #ffffff;
+}
+.navbar-dark .navbar-toggler
+{
+    background-color: black;
+}
+.nav-item a
+{
+    color: black;
+}
+.container
+{
+margin-left:auto ;
+margin-top: auto;
+padding-left: 50px;
+padding-right: 40px;
+}
+.element
+{
+    all: none;
+}
+
+.bgimage
+{
+    background-image: url(../images/bgimg.jpg);
+    background-repeat: no-repeat;
+    height: 557px;
+}
+.bgphara
+{
+    text-align: center;
+}
+.bgbox
+{
+    align-items: flex-end;
+    height: 100%;
+}
+.logic
+{
+    text-align: center;
+}
+.iphara
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Gradient
+{ 
+   background-image: linear-gradient(to right,#1a2547 ,  #06228f );
+}
+.footer
+{
+    background-image: linear-gradient(to right,#182652 ,#06228f );
+}
+.grid2
+{
+    background-image: linear-gradient(to right,#182652 , #06228f);
+}
+.i-phone img
+{
+   height: 560px;
+}
+.i-phone1 img
+{
+   height: 560px;
+}
+.i-phone
+{
+    position: relative;
+    left: 50px;
+    top: 25px;
+    z-index: 1;
+}
+.i-phone1
+{
+   position: relative;
+  right: 0px;
+  top: 0px;
+  z-index: -2;
+}
+.img21 img
+{
+    height: 299px; 
+    position: relative;
+    left: 50px;
+    z-index: 1;  
+}
+.img22 img
+{  
+    top: 14;
+    height: 560px;    
+    position: relative;
+    z-index:-2;
+}
+.Grid2
+    {
+        display: flex;
+    }
+.img21
+{
+    display: flex;
+    align-items: center;
+}
+.btn-warning
+{ 
+    background-image: linear-gradient(to right,#D99529,#EDAC4A);
+}
+.actionBtn
+{
+    background-image: linear-gradient(to right,#D99529,#EDAC4A);
+    border-radius: 20px;
+    height: 56px;
+    width: 260px;
+    border-style: none;
+}
+.img3 img 
+{
+    height: 80px;
+    width: 103px;
+    align-items: center;
+}
+.card p
+{
+    font-size: 14px;
+    line-height: 15px;
+}
+.bgimg
+{
+    background-image: url(../images/vs2.png);
+    height: 360px;
+    background-repeat: no-repeat;
+}
+.bgimg1
+{
+ background-image: url(../images/g1.png);
+ height: 360px;
+ background-repeat: no-repeat;
+}
+.bgimg2
+{
+background-image: url(../images/visu2.png);
+height: 360px;
+background-repeat: no-repeat;
+}
+.temp
+{
+    background-color: #09436D;
+}
+.text-start1
+{
+    text-align: right;
+}
+.box
+{   
+    font-family:'Montserrat-SemiBold';
+    height: 98px;
+    width: 206px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 3px;
+    background-color: #2BAAE3;
+    word-spacing: 1px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+.box button
+{
+    height: 48px;
+    width: 180px;
+    border-radius: 20px;
+}
+.card_me-3 
+{
+    border-style: none;
+    background-color: #e9f8ff;
+    border-radius: 25px;
+}
+.lstend p
+{
+font-size: 13px;
+}
+.scolom
+{
+display: flex;
+}
+.carousel-indicators [data-bs-target]
+{
+background-color: #e19e36 !important;
+height: 11px !important;
+width: 11px !important;
+border-radius: 100% !important;
+} 
+@media only screen and (max-width: 768px)
+ { .container
+    {
+        padding:0px;
+        margin: 0px;
+    }
+    .bgimage
+    {
+        height: auto;
+        background-size: cover;
+    }
+img
+{
+    width: 100%;
+}
+.iphara
+{
+    display:block !important;
+}
+.text-start1
+{
+    text-align: left;
+}
+.text-start
+{
+    text-align: left;
+}
+.Grid2
+{
+display: block;
+}
+.card-body
+{
+    margin-bottom: 15px;
+}
+.opec
+{
+    order: 2;
+}
+.img21 img  
+{
+height: auto;
+}
+.img22 img 
+{
+    height: auto;
+}
+
+.i-phone img 
+{
+    height: auto;
+}
+.i-phone1 img 
+{
+    height: auto;
+}
+.lstend
+{
+    line-height: 20px;
+}
+}
